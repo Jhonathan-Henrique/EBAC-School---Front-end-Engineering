@@ -1,0 +1,25 @@
+body {
+  background: #eee;
+}
+
+header {
+  background: #eee;
+}
+header h1 {
+  color: #111;
+}
+
+button {
+  background: #111;
+  color: #eee;
+  padding: 16px;
+}
+button:hover {
+  background: blue;
+  color: #eee;
+}
+button.sucesso:hover {
+  background: red;
+}
+
+/*# sourceMappingURL=main.css.map */

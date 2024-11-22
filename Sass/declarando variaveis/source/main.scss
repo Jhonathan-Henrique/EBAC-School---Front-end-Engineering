@@ -1,0 +1,29 @@
+$corPrincipal: #eee;
+$corSecundaria: #111;
+
+body {
+  background: $corPrincipal;
+}
+
+header {
+  background: $corPrincipal;
+    h1 {
+      color: $corSecundaria;
+    }
+}
+
+button {
+  background: $corSecundaria;
+  color: $corPrincipal;
+  padding: 16px;
+    &:hover {
+      background: blue;
+      color: $corPrincipal;
+    }
+
+    &.sucesso {
+     &:hover{
+      background: red;
+     }
+    }
+}
