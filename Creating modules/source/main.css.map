@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../build/config/reset.scss","../build/secoes/produtos.scss","../build/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;;;ACFF;EACE;;;ACAF;EACE","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../build/config/reset.scss","../build/secoes/produtos.scss","../build/config/cores.scss","../build/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;;;ACFF;EACE,YCHa;;;ACIf;EACE,YDHW","file":"main.css"}

@@ -3,5 +3,5 @@
 @use 'config/cores';
 
 body {
-  background: $corDeFundo;
+  background: cores.$corDeFundo;
 }

@@ -1,18 +1,16 @@
-/* Error: Undefined variable.
- *   ,
- * 4 |   background: $corPrincipal;
- *   |               ^^^^^^^^^^^^^
- *   '
- *   build\secoes\produtos.scss 4:15  @use
- *   build\main.scss 2:1              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    background: $corPrincipal;\d\a   \2502                ^^^^^^^^^^^^^\a   \2575 \a   build\\secoes\\produtos.scss 4:15  @use\a   build\\main.scss 2:1              root stylesheet";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
+
+.produtos {
+  background: green;
+}
+
+body {
+  background: #eee;
+}
+
+/*# sourceMappingURL=main.css.map */

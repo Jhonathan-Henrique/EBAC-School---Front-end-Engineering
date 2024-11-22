@@ -1,5 +1,5 @@
 @use '../config/cores';
 
 .produtos {
-  background: $corPrincipal;
+  background: cores.$corPrincipal;
 }
