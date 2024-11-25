@@ -17,7 +17,8 @@ body {
 
 header {
   padding: 16px 0;
-  background: yellow;
+  background: #00d2d3;
+  color: #fff;
   text-align: center;
 }
 
@@ -27,11 +28,20 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 760px;
+}
+.container_form h2 {
+  font-size: 48px;
+  text-align: center;
 }
 .container_form form {
   width: 100%;
   max-width: 480px;
   margin-top: 40px;
+}
+.container_form form label {
+  font-weight: bold;
+  cursor: pointer;
 }
 .container_form form input {
   padding: 8px;
@@ -40,13 +50,25 @@ header {
   margin-bottom: 16px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 3px solid #00d2d3;
 }
 .container_form form button {
   padding: 8px;
   display: block;
   width: 100%;
   margin-bottom: 16px;
+  background: #ff9f43;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background: yellow;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
