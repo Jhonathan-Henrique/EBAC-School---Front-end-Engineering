@@ -1,4 +1,16 @@
-const gulp = require('gulp'); //Vamos importar o pacote do gulp que instalamos.
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass')); 
+const sourcemaps = require('gulp-sourcemaps');
+
+function compilaSass(){
+	return gulp.src('./source/styles/*.scss')
+					.pipe(sourcemaps.init()) 
+					.pipe(sass({
+						outputStyle: 'compressed'
+						})) 
+					.pipe(sourcemaps.write('./maps'))
+					.pipe(gulp.dest('./build/styles')) 
+}
 
 function funcaoPadrao(callback){ 
 	setTimeout(function(){
@@ -20,3 +32,4 @@ function dizTchau() {
 
 exports.default = gulp.parallel(funcaoPadrao, dizOi);
 exports.dizOi = dizOi;
+exports.sass = compilaSass;
