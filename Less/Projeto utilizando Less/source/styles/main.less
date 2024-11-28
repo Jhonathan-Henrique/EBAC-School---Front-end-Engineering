@@ -7,16 +7,22 @@
   margin-bottom: 8px;
 }
 
+
 body {
   background: #colors[backgroundColor];
   color: #colors[textColors];
 
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  height: 100vh;
 
     header {
       padding: 20px;
@@ -62,7 +68,6 @@ body {
   margin: 0 auto;
 
   li {
-    list-style: none;
 
     img {
       transition: all ease .3s;
@@ -72,6 +77,32 @@ body {
       }
     }
   }
+}
+
+.project-list {
+  margin-top: 32px;
+
+    &-item {
+      a {
+        text-decoration: none;
+        background: #colors[buttonColor];
+        display: block;
+        padding: 16px 20px;
+        margin-bottom: 16px;
+        text-align: center;
+        color: #colors[textColors];
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #colors[buttonColor];
+        transition: all ease .5s;
+
+        &:hover {
+          color: #colors[buttonColor];
+          background: transparent;
+          
+        }
+      }
+    }
 }
 
 

@@ -1,0 +1,23 @@
+@import 'variaveis.less';
+@import 'maps.less';
+
+@breakpointMobile: ~'(max-width: 767px)';
+
+body {
+  background: blue;
+}
+
+h1 {
+  background: @corDeFundo;
+}
+
+h2 {
+  background: #colors[backgroundColor];
+}
+
+body {
+  @media @breakpointMobile {
+    background: yellow;
+  }
+}
+

@@ -1,0 +1,14 @@
+body {
+  background: blue;
+}
+h1 {
+  background: #44bd32;
+}
+h2 {
+  background: #e84118;
+}
+@media (max-width: 767px) {
+  body {
+    background: yellow;
+  }
+}
