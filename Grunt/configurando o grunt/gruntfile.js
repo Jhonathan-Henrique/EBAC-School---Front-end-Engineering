@@ -26,6 +26,9 @@ module.exports = function(grunt) {
 					'main2.css': 'main.scss'
 				}
 			}
+		},
+		concurrent: {
+			target: ['olaGrunt', 'less', 'sass']
 		}
 	})
 	
@@ -41,7 +44,8 @@ module.exports = function(grunt) {
 	
 	grunt.loadNpmTask('grunt-contrib-less');
 	grunt.loadNpmTask('grunt-contrib-sass');
+	grunt.loadNpmTask('grunt-concurrent');
 	
-	grunt.registerTask('default', ['less', 'sass']) // Aqui podemos um array do nome de todas
+	grunt.registerTask('default', ['concurrent']) // Aqui podemos um array do nome de todas
 	//as tarfeas que serao executadas quando escrevermos npm run grunt
 }

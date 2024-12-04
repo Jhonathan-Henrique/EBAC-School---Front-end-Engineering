@@ -1,5 +1,5 @@
 {
-  "name": "configurando-o-grunt",
+  "name": "exercicio-grunt",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,7 @@
   "description": "",
   "devDependencies": {
     "grunt": "^1.6.1",
-    "grunt-concurrent": "^3.0.0",
     "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-sass": "^2.0.0"
+    "grunt-contrib-uglify": "^5.2.2"
   }
 }
