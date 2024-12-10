@@ -15,22 +15,22 @@
     .produto {
     
     
-      &-imagem { /* elemento */
+      &__imagem { /* elemento */
         width: 100%;
       }
     
-      &-nome { /* elemento */
+      &__nome { /* elemento */
         font-size: 1.2em;
         margin: 8px 0;
       }
     
-      &-descricao { /* elemento */
+      &__descricao { /* elemento */
         color: gray;
       }
     
     } /* bloco */ 
     
-    .em-destaque { /* modificador */
+    .em__destaque { /* modificador */
       border: 2px solid gold;
       padding: 8px;
       background-color: #ffff42;

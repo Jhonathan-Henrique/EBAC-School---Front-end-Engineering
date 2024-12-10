@@ -13,17 +13,17 @@
   grid-column-gap: 1%;
   /* bloco */
 }
-.produtos .produto-imagem { /* elemento */
+.produtos .produto__imagem { /* elemento */
   width: 100%;
 }
-.produtos .produto-nome { /* elemento */
+.produtos .produto__nome { /* elemento */
   font-size: 1.2em;
   margin: 8px 0;
 }
-.produtos .produto-descricao { /* elemento */
+.produtos .produto__descricao { /* elemento */
   color: gray;
 }
-.produtos .em-destaque { /* modificador */
+.produtos .em__destaque { /* modificador */
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
